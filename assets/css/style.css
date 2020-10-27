@@ -2,16 +2,19 @@
 /* Making the Nav Bar similar to the sample Images provided in the homework */
 
 .navbar-brand{
-    background-color:rgb(40, 182, 182);
+    background-color: teal;
     margin-left: 10px;
     font-family: Serif;
     font-size: 30px; 
     font-weight: bold;
 }
 .navbar-light .navbar-brand {
-    color: #f8f9fa;
+    color: white;
 }
 
+.contact-card{
+    padding:10px;
+}
 a.active{
        color:black; 
 }
