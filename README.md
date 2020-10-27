@@ -20,7 +20,7 @@ This is a portfolio created as a part of the course work, The main intention to 
 
 ## Demo
 
-![Demo](assets/portfolio.gif)
+![Demo](/assets/Portfolio.gif)
 
 
 ## User Guide
