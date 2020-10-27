@@ -7,21 +7,22 @@
     <title>Document</title>
     <!-- CSS Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body class="body-image">
    <!-- Navigation Pane -->
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <h1 class="navbar-brand text-white">Anusha Ravva</h1>
+    <h1 class="navbar-brand text-white">Portfolio</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav ml-auto">
         <a class="nav-link" href="index.html">About</a>
-        <a class="nav-link active" href="portfolio.html">Portfolio</a>
-        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link active" href="portfolio.html">Projects</a>
+        <a class="nav-link" href="contact.html">Contact Me</a>
       </div>
     </div>
     </nav>
@@ -30,51 +31,66 @@
 
     <section class="row">
       <div class="col-xs-12 col-sm-12 col-md-9 portfolio"> 
-      <h1 class="heading">Portfolio</h1> 
+      <h1 class="heading">Projects</h1> 
       <hr class="horizontal-divider">
-        <!-- <img class="portfolio-image" src="assets/portfolio/CornellwNIUstudents.jpg" alt="profile Picture"> 
-        <img class="portfolio-image" src="assets/portfolio/Image1.jpg" alt="profile Picture"> 
-        <img class="portfolio-image" src="assets/portfolio/NIUinBrazil.jpg" alt="profile Picture"> 
-        <img class="portfolio-image" src="assets/portfolio/Snoqualmie.jpeg" alt="profile Picture"> 
-        <img class="portfolio-image" src="assets/portfolio/travel.jpeg" alt="profile Picture">  -->
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 1000px;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="assets/Images/DayScheduler.png" class="card-img" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title"><a href="https://anurav18.github.io/WorkdayScheduler/" target="_blank">Work Day Scheduler</a></h5>
+                <p class="card-text">This is a day scheduler for an entire work day, It has dedicated blocks for each hour to save the agenda for that particular time frame.
+                  The header has the display for current day and date.
+Each hour block is color coded based on the current working time.
+If the hour block is in the past the background color of the text-input is white.
+If the hour block is in the current hour, then the background color is set to red.
+If the hour block is in the future, the background color is set to green as an indication that it is available.
+                </p>
+                <p class="card-text"><small class="text-muted"><a href="https://github.com/anurav18/WorkdayScheduler" target="_blank"><i class="fab fa-github fa-2x "></i>gitHub</a></small></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 1000px;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="assets/Images/WeatherForecast.png" class="card-img" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title"><a href="https://anurav18.github.io/WeatherApp/" target="_blank">Weather Forecast</a></h5>
+                <p class="card-text">This is an App created to give the user flexibility to know the current weather conditions along with the 5-day forecast using openweather App API. The end point is created using certain query parameters along with the api key.
+                  When the user search for weather information on a certain city , it is added to a list in the left navigation for future reference.
+Current Day forecast along with a 5-day forecast is shown on the right container of the page
+The background-color of the UV index represent the intensity of it. Green for low UV Index,Orange for Moderate UV Index,Red for Intense UV Index
+The search history remains on the page even after page re-load
+                </p>
+                <p class="card-text"><small class="text-muted"><a href="https://github.com/anurav18/WeatherApp" target="_blank"><i class="fab fa-github fa-2x "></i>gitHub</a></small></p>
               </div>
             </div>
           </div>
         </div>
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3" style="max-width: 1000px;">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="..." class="card-img" alt="...">
+              <img src="assets/Images/ActivityFinder.png" class="card-img" alt="...">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title"><a href="https://dancornutt.github.io/UWB-ActivityApp/" target="_blank">Activity Planner</a></h5>
+                <p class="card-text">This was the first group project for the UW Coding Bootcamp. 
+                  For this project we were simply given a set of requirements that our application needed to meet, 
+                  but we were given creative control over the design and functionality of the application. 
+                  Among the criteria were: being interactive, using at least two APIs, using a CSS framework other than Bootstrap, 
+                  and using client-side storage to store persistent data. Our group chose to make an application named !Bored. 
+                  This application would access your current location and pull the current weather data. 
+                  Based on the weather data, the application would recommend that you do an indoor or outdoor activity. 
+                  The application pulls local events from a Ticketmaster API and presents those to the user. 
+                  It also pulls local Points of Interest from Triposo. 
+                  The user then has the option to save these events or points of interest for access later.</p>
+                <p class="card-text"><small class="text-muted"><a href="https://github.com/dancornutt/UWB-ActivityApp" target="_blank"><i class="fab fa-github fa-2x "></i>gitHub</a></small></p>
               </div>
             </div>
           </div>
@@ -88,7 +104,7 @@
  <footer class="footer">
       &#169;Copyright
   </footer>
-
+  <script src="https://kit.fontawesome.com/fc39366422.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" inteˆgrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
